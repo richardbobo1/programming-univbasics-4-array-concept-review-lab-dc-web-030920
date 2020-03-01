@@ -9,19 +9,15 @@ def find_element_index(array, value_to_find)
   count = 0 
   
   while count < array.length do 
-    array.index(value_to_find)
+    if array[count] == value_to_find
+      return count 
+    end 
     count += 1 
   end 
   nil
 end
 
-find_element_index(scale,2)
-find_element_index(scale,4)
-find_element_index(scale_2,5)
-find_element_index(scale_2,6)
-find_element_index(hill,500)
-find_element_index(valley,500)
-find_element_index(zig_zag,400)
+
 
 #does this properly loop? 
 
