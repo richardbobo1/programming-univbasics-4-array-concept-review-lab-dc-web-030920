@@ -12,6 +12,7 @@ def find_element_index(array, value_to_find)
     array.index(value_to_find[count])
     count += 1 
   end 
+  nil
 end
 
 find_element_index(scale,2)
